@@ -1,15 +1,15 @@
-# 🏡 California Housing Market Analysis
+# California Housing Market Analysis – Final Project
 
 **Tools:** Pandas, NumPy, Matplotlib, Seaborn, SciPy, Scikit-learn  
 **Skills:** Data Cleaning, Feature Engineering, Visualization, Statistical Analysis
 
-## 📋 Overview
+## Overview
 
 This project explores the California housing dataset provided by Scikit-learn. The goal was to uncover meaningful relationships between housing features and median house value through data exploration, visualization, and statistical methods.
 
 ---
 
-## 🔍 Objectives
+## Objectives
 
 - Understand key factors that influence median house value in California.
 - Engineer meaningful features to enhance analysis.
@@ -18,36 +18,36 @@ This project explores the California housing dataset provided by Scikit-learn. T
 
 ---
 
-## 🧪 Key Analyses & Methods
+## Key Analyses & Methods
 
-### ➤ Data Exploration
+### Data Exploration
 - Loaded and examined the structure of the dataset.
 - Verified there were no missing values.
 - Generated descriptive statistics for all numerical features.
 
-### ➤ Feature Engineering
+### Feature Engineering
 - Created `rooms_per_household` and `bedrooms_per_room` to better reflect housing density and quality.
 - Standardized `MedInc` using z-score normalization to allow fair comparison.
 
-### ➤ Visualizations
-- **Histograms** revealed right-skewed distributions for home value and household occupancy.
-- **Scatter plot** of `MedInc` vs `MedHouseVal` showed a clear positive trend: higher-income areas tend to have higher-valued homes.
-- **Box plots** highlighted variability and potential outliers in `AveOccup`.
-- **Pair plots** helped visualize multivariate relationships between income, room count, and household density.
-- **Area plots** compared trends in `AveRooms` and `AveOccup` across time-indexed rows.
-- **Heatmap** displayed strong positive correlation between median income and house value, and a negative correlation between `bedrooms_per_room` and house value.
+### Visualizations
+- Histograms revealed right-skewed distributions for home value and household occupancy.
+- Scatter plot of `MedInc` vs `MedHouseVal` showed a clear positive trend: higher-income areas tend to have higher-valued homes.
+- Box plots highlighted variability and potential outliers in `AveOccup`.
+- Pair plots helped visualize multivariate relationships between income, room count, and household density.
+- Area plots compared trends in `AveRooms` and `AveOccup` across time-indexed rows.
+- Heatmap displayed strong positive correlation between median income and house value, and a negative correlation between `bedrooms_per_room` and house value.
 
 ---
 
-## 📈 Statistical Insights
+## Statistical Insights
 
-- **Pearson correlation test** confirmed a statistically significant relationship between median income and house value.
-- **Two-sample t-test** showed that areas above the median income had significantly higher home values than those below.
-- **Z-score method** was used to detect outliers in `AveRooms`, identifying homes with exceptionally high room counts.
+- Pearson correlation test confirmed a statistically significant relationship between median income and house value.
+- Two-sample t-test showed that areas above the median income had significantly higher home values than those below.
+- Z-score method was used to detect outliers in `AveRooms`, identifying homes with exceptionally high room counts.
 
 ---
 
-## 📊 Key Trends Observed
+## Key Trends Observed
 
 - Median income is one of the strongest predictors of median house value.
 - A higher `rooms_per_household` ratio is generally associated with more valuable homes.
@@ -57,7 +57,7 @@ This project explores the California housing dataset provided by Scikit-learn. T
 
 ---
 
-## 💡 Recommendations for Real Estate Analysts
+## Recommendations for Real Estate Analysts
 
 - Focus on high-income areas when prioritizing markets for higher-value properties.
 - Track metrics like `rooms_per_household` and `bedrooms_per_room` to better gauge property quality.
@@ -66,9 +66,15 @@ This project explores the California housing dataset provided by Scikit-learn. T
 
 ---
 
-## 📁 Dataset
+## Dataset
 
 - California Housing dataset from Scikit-learn: [`fetch_california_housing()`](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.fetch_california_housing.html)
+
+---
+
+## Conclusion
+
+This project demonstrates how feature engineering, data visualization, and statistical analysis can be combined to extract meaningful insights from real-world housing data. These findings can inform pricing strategies, investment decisions, and targeted housing policy development.
 
 ---
 
