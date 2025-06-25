@@ -78,7 +78,3 @@ This project demonstrates how feature engineering, data visualization, and stati
 
 ---
 
-## ✅ Conclusion
-
-This project demonstrates how feature engineering, data visualization, and statistical analysis can be combined to extract meaningful insights from real-world housing data. These findings can inform pricing strategies, investment decisions, and targeted housing policy development.
-
