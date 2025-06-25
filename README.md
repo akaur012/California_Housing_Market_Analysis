@@ -30,12 +30,23 @@ This project explores the California housing dataset provided by Scikit-learn. T
 - Standardized `MedInc` using z-score normalization to allow fair comparison.
 
 ### Visualizations
-- Histograms revealed right-skewed distributions for home value and household occupancy.
-- Scatter plot of `MedInc` vs `MedHouseVal` showed a clear positive trend: higher-income areas tend to have higher-valued homes.
-- Box plots highlighted variability and potential outliers in `AveOccup`.
-- Pair plots helped visualize multivariate relationships between income, room count, and household density.
-- Area plots compared trends in `AveRooms` and `AveOccup` across time-indexed rows.
-- Heatmap displayed strong positive correlation between median income and house value, and a negative correlation between `bedrooms_per_room` and house value.
+- Histograms revealed right-skewed distributions for home value and household occupancy.  
+  ![Histogram of MedHouseVal](images/histogram_medhouseval.png)
+
+- Scatter plot of `MedInc` vs `MedHouseVal` showed a clear positive trend: higher-income areas tend to have higher-valued homes.  
+  ![Scatter plot of MedInc vs MedHouseVal](images/scatter_medinc_vs_medhouseval.png)
+
+- Box plots highlighted variability and potential outliers in `AveOccup`.  
+  ![Box plot of AveOccup](images/boxplot_aveoccup.png)
+
+- Pair plots helped visualize multivariate relationships between income, room count, and household density.  
+  ![Pairplot](images/pairplot_core_vars.png)
+
+- Area plots compared trends in `AveRooms` and `AveOccup` across time-indexed rows.  
+  ![Area plot](images/areaplot_averooms_aveoccup.png)
+
+- Heatmap displayed strong positive correlation between median income and house value, and a negative correlation between `bedrooms_per_room` and house value.  
+  ![Correlation heatmap](images/heatmap_correlations.png)
 
 ---
 
